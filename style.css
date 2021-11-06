@@ -9,7 +9,7 @@ body
 }
 .bgimg
 {
-	background-image: url(bgimg.png);
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt9a_PZmSxTuIg9eSEkRuUyrsxdic-Yglj4w&usqp=CAU");
     background-size: contain;
     background-position: center;
     background-repeat: space;
