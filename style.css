@@ -9,13 +9,12 @@ body
 }
 .bgimg
 {
-   
-	background-image: url(bgimg.png);
+   background-image: url(bgimg.png);
     background-size: contain;
     background-position: center;
     background-repeat: space;
     background-blend-mode: screen;
-    background-color:#e1e8ec;
+    background-color: #e1e8ec;
    
 }
 header
