@@ -9,11 +9,13 @@ body
 }
 .bgimg
 {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz7t0NFyMvu5kiHFc2YHI263ggd4tnfl5Vrg&usqp=CAU');
-    background-repeat: no-repeat;
+   
+	background-image: url(bgimg.png);
     background-size: contain;
     background-position: center;
+    background-repeat: space;
     background-blend-mode: screen;
+    background-color:#e1e8ec;
    
 }
 header
