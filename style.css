@@ -14,7 +14,7 @@ body
     background-position: center;
     background-repeat: space;
     background-blend-mode: screen;
-    background-color: yellow;
+    background-color:#e1e8ec;
 }
 header
 {
@@ -43,7 +43,7 @@ body h1:nth-child(1)
 	color:  white;
 	margin: 0px;
 	padding: 18px;
-	background :  #e68a00; 
+	background : yellow; 
     font-size: 24px;
 	text-align: center;
 }
