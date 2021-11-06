@@ -9,10 +9,10 @@ body
 }
 .bgimg
 {
-	background-image: url(bgimg.png);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoIqRLGT-HU1l3G_51-fJLEffY50t7qycyLA&usqp=CAU');
+    background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-repeat: space;
     background-blend-mode: screen;
     background-color:#FFFF00;
 }
