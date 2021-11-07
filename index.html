@@ -29,8 +29,18 @@
 		</section>
                 <hr>
 
-	    <h3>Introduction</h3>
-                <section id="Introduction">
+	
+                <nav id="nav_page">
+                    <button onclick="show_part(event);">Introduction</a>
+                    <button onclick="show_part(event);">Information</a>
+                    <button onclick="show_part(event);">Advantages</a>
+                    <button onclick="show_part(event);">Disadvantages</a>
+                    <button onclick="show_part(event);">List</a>
+                </nav>
+                
+                <section id="Introduction" style="display: none;">
+                <form onsubmit="event.preventDefault();" style="text-align: center"></form>
+                <h3>Introduction</h3>
                    <p style="padding-left: 10px;">Energy is a factor which determine a country’s economy, transportation, and standard of life. The problem faced globally is the consumption and the availability of energy. <br><br>
                    There are two main problems of continuous using of fossil fuels - <br>
                    1) Limited amount of fossil fuel.<br>
@@ -41,26 +51,28 @@
                    FCEVs can reduce emission to some extent but not to zero.<br><br>
                    Thus, the renewable energy transport allows FCEVs to become preferable choice.<br>
                 </section>
-            <hr>
+           
 
-            <section id="Information">
-              <h3>Information</h3>
-              <p style="padding-left: 5px;">Fuel cells in vehicles generate electricity generally using oxygen from the air and compressed hydrogen.<br><br>
-               Most of the fuel cell vehicles are classifies as zero emissions vehicle that emits only heat and water.<br><br>
-               There are various types of fuel cell systems. But the principle function is same.<br><br>
-              <hr>
-
-            <h3>Principle of FCEVs</h3><p style="padding-left: 10px;">For fuel cell system anode, cathode and electrolyte are required.<br>
-             The electrolyte is in between the cathode and the anode.<br> 
-             Fuel (hydrogen) is in the anode compartment of the fuel cell and the air or pure oxygen is in the cathode compartment.<br> 
-             On anode side of cell, electrons are separated as the gas tries to make its way through the electrolyte membrane.<br>
-             Membrane act as filter to separate hydrogen ions and electrons.<br>
-             In this way, electricity is formed and supplied to motor to drive the wheels.<br> Water as well as heat is the by-product of the fuel cell.<br> 
-            <hr>
-             </section>
+                <section id="Information"  style="display: none;">
+                <form onsubmit="event.preventDefault();" style="text-align: center"></form>
+                  <h3>Information</h3>
+                 <p style="padding-left: 5px;">Fuel cells in vehicles generate electricity generally using oxygen from the air and compressed hydrogen.<br><br>
+                 Most of the fuel cell vehicles are classifies as zero emissions vehicle that emits only heat and water.<br><br>
+                 There are various types of fuel cell systems. But the principle function is same.<br><br>
             
-             <section id="Advantages">
-              <h3>Advantages</h3>
+
+                 <h3>Principle of FCEVs</h3><p style="padding-left: 10px;">For fuel cell system anode, cathode and electrolyte are required.<br>
+                 The electrolyte is in between the cathode and the anode.<br> 
+                 Fuel (hydrogen) is in the anode compartment of the fuel cell and the air or pure oxygen is in the cathode compartment.<br> 
+                 On anode side of cell, electrons are separated as the gas tries to make its way through the electrolyte membrane.<br>
+                 Membrane act as filter to separate hydrogen ions and electrons.<br>
+                 In this way, electricity is formed and supplied to motor to drive the wheels.<br> Water as well as heat is the by-product of the fuel cell.<br> 
+        
+                </section>
+            
+                <section id="Advantages" style="display: none;">
+                <form onsubmit="event.preventDefault();" style="text-align: center"></form>
+                 <h3>Advantages</h3>
                  <p style="padding-left: 10px;">
                    i)Renewable and Readily Available<br>
                   ii)Hydrogen is a Clean and Flexible Energy Source to support Zero-Carbon Energy Strategies<br>
@@ -68,22 +80,24 @@
                   iv)Almost Zero Emissions<br>
                    v)Reduces Carbon Footprints<br>
                   vi)Fast Charging Times<br>
-               </section>
-               <hr>
+                </section>
+            
 
-            <section id="Disadvantages">
-              <h3>Disadvantages</h3>
-                <p style="padding-left: 10px;">
+                <section id="Disadvantages" style="display: none;">
+                <form onsubmit="event.preventDefault();" style="text-align: center"></form>
+                 <h3>Disadvantages</h3>
+                 <p style="padding-left: 10px;">
                  i)Investment is Required<br>
                 ii)Cost of Raw Materials<br>
                iii)Hydrogen Storage<br>
                 iv)Highly Flammable<br>
                  v)Regulatory Issues<br>
-             </section>
-             <hr>
+                </section>
             
-             <section id="List">
-             <h3>List</h3>
+            
+                <section id="List" style="display: none;">
+                <form onsubmit="event.preventDefault();" style="text-align: center"></form>
+                 <h3>List</h3>
                a) Cars<br> 
                  i) 2008–2015 - Honda FCX Clarity <br>
                  ii) 2013–2017 - Hyundai Tucson/ix35 Fuel Cell<br> 
@@ -105,6 +119,6 @@
               e) Buses<br> 
                  i) 2020 - Hyundai Elec City FCEV bus.<br>
              </section>
-             <hr>
+            
     </main>
 </html>
