@@ -21,7 +21,7 @@ header
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 12px;
+	margin: 12px 15px;
 }
 header>section:nth-child(1)
 {
@@ -31,7 +31,7 @@ header>section:nth-child(1)
 }
 header nav button
 {
-	border-width: 0;
+	border-width: 1;
 	border-color: #e5e7eb;
 	font-family: inherit;
 	font-size: 16px;
